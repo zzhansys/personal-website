@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= config.title %></title>
+    <%- css('css/style') %>
+</head>
+<body>
+    <%- body %>
+    <footer>
+        <p>&copy; <%= new Date().getFullYear() %> <%= config.author %>. All rights reserved.</p>
+    </footer>
+    <%- js('js/script') %>
+</body>
+</html>

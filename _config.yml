@@ -61,7 +61,7 @@ pagination_dir: page
 
 # 扩展配置 (Extensions)
 # 主题 - 名字必须和你放在 themes 文件夹下的主题文件夹名一致
-theme: landscape                # 默认是 landscape，请修改为你下载的主题名
+theme: fancy                # 默认是 landscape，请修改为你下载的主题名
 
 # 部署配置 (Deployment)
 # !!! 部署前需要先安装对应的部署插件，例如：npm install hexo-deployer-git --save

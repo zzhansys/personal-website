@@ -1,0 +1,25 @@
+<%# 首页欢迎 Section %>
+<section id="home" class="hero-section">
+  <div class="hero-content">
+    <img src="<%- url_for(theme.hero.profile_pic) %>" alt="我的个人照片" class="profile-image">
+    <h1>你好，我是 <%= theme.hero.name %></h1>
+    <p class="tagline"><%= theme.hero.tagline %></p>
+    <div class="social-links">
+      <a href="<%= theme.hero.social_links.github %>" target="_blank"><img src="<%- url_for('images/social-icon-github.png') %>" alt="GitHub"></a>
+      <a href="<%= theme.hero.social_links.linkedin %>" target="_blank"><img src="<%- url_for('images/social-icon-linkedin.png') %>" alt="LinkedIn"></a>
+    </div>
+  </div>
+  <div class="background-overlay" style="background-image: url('<%- url_for(theme.hero.background) %>');"></div>
+</section>
+
+<%# 关于我 Section %>
+<section id="about" class="parallax-section" style="background-image: url('<%- url_for(theme.about.background) %>');">
+  <div class="content-wrapper">
+    <h2><%= theme.about.title %></h2>
+    <%- markdown(theme.about.content) %>
+    <img src="<%- url_for(theme.about.sticker) %>" alt="贴图" class="section-sticker">
+  </div>
+</section>
+
+<%# 更多 Section... %>
+<%# 你可以按照这个模式，把我们之前设计的 Projects 和 Contact Section 也加进来 %>
