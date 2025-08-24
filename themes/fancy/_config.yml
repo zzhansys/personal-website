@@ -11,11 +11,11 @@ hero:
 
 about:
   title: 关于我
-  # background: /images/background-about.jpg
-  # sticker: /images/sticker-books.png
+  background: /images/background.jpg
+  sticker: /images/sticker-books.jpg
   content: |
-    这是你的个人介绍的第一段。
+    你好 这里还没有写。
     
-    这是第二段。你可以用 Markdown 语法来写，比如 **加粗** 或 *斜体*。
+    这是第二段。**加粗** 或 *斜体*。
 
 # 在这里继续添加 projects 和 contact 部分的配置
