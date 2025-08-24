@@ -1,0 +1,21 @@
+# my-special-theme 的配置文件
+
+hero:
+  name: Shizhe Zhang
+  tagline: A master student at Berkeley
+  profile_pic: /images/profile-pic.png
+  # background: /images/background-hero.jpg
+  social_links:
+    github: https://github.com/your-username
+    linkedin: https://linkedin.com/in/your-profile
+
+about:
+  title: 关于我
+  # background: /images/background-about.jpg
+  # sticker: /images/sticker-books.png
+  content: |
+    这是你的个人介绍的第一段。
+    
+    这是第二段。你可以用 Markdown 语法来写，比如 **加粗** 或 *斜体*。
+
+# 在这里继续添加 projects 和 contact 部分的配置
