@@ -3,7 +3,7 @@
 hero:
   name: Shizhe Zhang
   tagline: A master student at Berkeley
-  profile_pic: /images/profile-pic.png
+  profile_pic: /images/profile-pic.jpg
   # background: /images/background-hero.jpg
   social_links:
     github: https://github.com/your-username
